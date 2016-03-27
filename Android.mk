@@ -26,3 +26,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := ims-common
 
 include $(BUILD_JAVA_LIBRARY)
+
+# build MTK ImsService
+include $(call all-makefiles-under,$(LOCAL_PATH))
